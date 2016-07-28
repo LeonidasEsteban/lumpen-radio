@@ -31,11 +31,9 @@ Looking to build your own React Native project with ES6/7? Check out my [React N
 2. Install dependencies.
 
     ```sh
-    pod install
     npm install
+    pod install
     ```
-
-    **Note:** If, no when, you run into problems with the Pod installation please review [CocoaPods Troubleshooting](https://guides.cocoapods.org/using/troubleshooting.html) and pay special attetion to any error messages received during the Pod installation.
 
 3. Run `npm start` to start the Webpack watcher, Webpack Dev Server and the React Packager in a single shot.
 
