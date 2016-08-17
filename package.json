@@ -1,28 +1,18 @@
 {
-  "name": "lumpen-radio",
-  "version": "1.4.1",
+  "name": "WLPN",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "bundle": "react-native-webpack-server bundle",
-    "start": "react-native-webpack-server start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "standard --verbose | snazzy"
   },
   "dependencies": {
-    "react-native": "^0.11.0",
-    "react-native-localization": "^0.1.7",
-    "react-native-video": "^0.6.1",
-    "react-tween-state": "0.0.5",
-    "reflux": "^0.2.12"
+    "react": "15.2.1",
+    "react-native": "0.31.0",
+    "react-native-video": "^0.9.0"
   },
   "devDependencies": {
-    "anybar-webpack": "^1.0.7",
-    "babel-core": "^5.8.24",
-    "babel-loader": "^5.3.2",
-    "babel-runtime": "^5.1.8",
-    "eslint": "^1.4.3",
-    "eslint-plugin-react": "^3.4.1",
-    "react-native-webpack-server": "^0.5.1",
-    "supports-color": "^3.1.1",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.11.0"
+    "snazzy": "^4.0.1",
+    "standard": "*"
   }
 }
