@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import {
   Platform,
-  StyleSheet,
-  View
+  StyleSheet
 } from 'react-native'
 import Video from 'react-native-video'
 
@@ -37,18 +36,11 @@ class VideoAndroid extends Component {
 //   Resources from target Build Phases upon refactor.
 export default class BackgroundVideo extends Component {
   render () {
-    return (
-      <View style={styles.container}>
-        {Platform.OS === 'ios' ? <VideoIOS /> : <VideoAndroid />}
-      </View>
-    )
+    return Platform.OS === 'ios' ? <VideoIOS /> : <VideoAndroid />
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
   backgroundVideo: {
     position: 'absolute',
     top: 0,
