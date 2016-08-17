@@ -23,7 +23,9 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1E85297D4BEF4D3785F873C0 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 987A1B8D8E4044F985B24305 /* libRCTVideo.a */; };
+		43FFDBC12EBE51ECDB99C9D6 /* libPods-WLPN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEA79209545CBD9BA62A98E /* libPods-WLPN.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		AB775719152F502E89B715E6 /* libPods-WLPNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E23C9ECB8B80ADC4F2AE116 /* libPods-WLPNTests.a */; };
 		DD665B6E1D64015000055644 /* turntable-loop-1920x500-h264-512kbps-h264.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD665B6D1D64015000055644 /* turntable-loop-1920x500-h264-512kbps-h264.mp4 */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,7 @@
 		00E356EE1AD99517003FC87E /* WLPNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLPNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WLPNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPNTests.m; sourceTree = "<group>"; };
+		0E23C9ECB8B80ADC4F2AE116 /* libPods-WLPNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLPNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WLPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,10 +138,15 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WLPN/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		405EC976105A45A19CF4F9C1 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
+		4DC08A344846D93E8CB1B433 /* Pods-WLPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLPN/Pods-WLPN.debug.xcconfig"; sourceTree = "<group>"; };
+		6D07DDDFEA04582C6A10D64A /* Pods-WLPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPN.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLPN/Pods-WLPN.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7BC13D485EEC90A5C797D6EA /* Pods-WLPNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPNTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLPNTests/Pods-WLPNTests.release.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		987A1B8D8E4044F985B24305 /* libRCTVideo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTVideo.a; sourceTree = "<group>"; };
+		C60447BCF915A249A7F45439 /* Pods-WLPNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLPNTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLPNTests/Pods-WLPNTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD665B6D1D64015000055644 /* turntable-loop-1920x500-h264-512kbps-h264.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "turntable-loop-1920x500-h264-512kbps-h264.mp4"; path = "../src/assets/video/turntable-loop-1920x500-h264-512kbps-h264.mp4"; sourceTree = "<group>"; };
+		EBEA79209545CBD9BA62A98E /* libPods-WLPN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLPN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				AB775719152F502E89B715E6 /* libPods-WLPNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +174,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				1E85297D4BEF4D3785F873C0 /* libRCTVideo.a in Frameworks */,
+				43FFDBC12EBE51ECDB99C9D6 /* libPods-WLPN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +284,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7E69CC454B74B7D3453DC6E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DC08A344846D93E8CB1B433 /* Pods-WLPN.debug.xcconfig */,
+				6D07DDDFEA04582C6A10D64A /* Pods-WLPN.release.xcconfig */,
+				C60447BCF915A249A7F45439 /* Pods-WLPNTests.debug.xcconfig */,
+				7BC13D485EEC90A5C797D6EA /* Pods-WLPNTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +329,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* WLPNTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				7E69CC454B74B7D3453DC6E8 /* Pods */,
+				AA036F201905259DDFD80F6F /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -320,6 +343,15 @@
 				00E356EE1AD99517003FC87E /* WLPNTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AA036F201905259DDFD80F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA79209545CBD9BA62A98E /* libPods-WLPN.a */,
+				0E23C9ECB8B80ADC4F2AE116 /* libPods-WLPNTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DDA17A481D640099005CA34F /* Products */ = {
@@ -337,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WLPNTests" */;
 			buildPhases = (
+				755A3E0113D3DD42401E6DEF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				1510A719B6EC58F196C095EB /* [CP] Embed Pods Frameworks */,
+				B252039F9BCF419FB1B35166 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,10 +390,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WLPN" */;
 			buildPhases = (
+				2F17F3689B40B5F34DAB0B4D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D91A244148D9AE09F0C20388 /* [CP] Embed Pods Frameworks */,
+				D1F20B4F16D5E298C1472BA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -564,6 +602,96 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		1510A719B6EC58F196C095EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLPNTests/Pods-WLPNTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F17F3689B40B5F34DAB0B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		755A3E0113D3DD42401E6DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B252039F9BCF419FB1B35166 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLPNTests/Pods-WLPNTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F20B4F16D5E298C1472BA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLPN/Pods-WLPN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91A244148D9AE09F0C20388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLPN/Pods-WLPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -609,6 +737,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60447BCF915A249A7F45439 /* Pods-WLPNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -629,6 +758,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC13D485EEC90A5C797D6EA /* Pods-WLPNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -646,6 +776,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC08A344846D93E8CB1B433 /* Pods-WLPN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
@@ -668,6 +799,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D07DDDFEA04582C6A10D64A /* Pods-WLPN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				HEADER_SEARCH_PATHS = (
