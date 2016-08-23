@@ -9,7 +9,6 @@ class VideoIOS extends Component {
   render () {
     return (
       <Video
-        repeat
         resizeMode='cover'
         source={{uri: 'turntable-loop-1920x500-h264-512kbps-h264'}}
         style={styles.backgroundVideo}
@@ -21,12 +20,12 @@ class VideoIOS extends Component {
 class VideoAndroid extends Component {
   render () {
     return (
-      <Video
-        repeat
-        resizeMode='cover'
-        source={require('../assets/video/turntable-loop-1920x500-h264-512kbps-h264.mp4')}
-        style={styles.backgroundVideo}
-      />
+    <Video
+      repeat
+      resizeMode='cover'
+      source={require('../assets/video/turntable.mp4')}
+      style={styles.backgroundVideo}
+    />
     )
   }
 }
