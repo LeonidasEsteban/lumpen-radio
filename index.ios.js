@@ -1,11 +1,4 @@
-import React from 'react'
 import { AppRegistry } from 'react-native'
-import App from './src/components/App'
+import App from './app/components/App'
 
-function Root () {
-  return (
-    <App />
-  )
-}
-
-AppRegistry.registerComponent('WLPN', () => Root)
+AppRegistry.registerComponent('WLPN', () => App)

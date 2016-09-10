@@ -23,7 +23,7 @@ class VideoAndroid extends Component {
     <Video
       repeat
       resizeMode='cover'
-      source={require('../assets/video/turntable.mp4')}
+      source={require('../assets/video/turntable-loop-1920x500-h264-512kbps-h264.mp4')}
       style={styles.backgroundVideo}
     />
     )

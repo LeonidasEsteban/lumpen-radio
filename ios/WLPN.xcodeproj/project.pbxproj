@@ -2056,7 +2056,7 @@ fi
 			<key>name</key>
 			<string>turntable-loop-1920x500-h264-512kbps-h264.mp4</string>
 			<key>path</key>
-			<string>../src/assets/video/turntable-loop-1920x500-h264-512kbps-h264.mp4</string>
+			<string>../app/assets/video/turntable-loop-1920x500-h264-512kbps-h264.mp4</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
