@@ -7,8 +7,8 @@
     "lint": "standard --verbose | snazzy"
   },
   "dependencies": {
-    "react": "15.2.1",
-    "react-native": "0.31.0",
+    "react": "15.3.1",
+    "react-native": "0.32.1",
     "react-native-video": "^0.9.0"
   },
   "devDependencies": {
